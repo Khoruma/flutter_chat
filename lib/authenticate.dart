@@ -13,7 +13,7 @@ class Authenticate extends StatelessWidget {
   Widget build(BuildContext context) {
     
     if(auth.currentUser != null){
-      return const HomePage();
+      return  HomeScreen();
     }else{
       return const LoginPage();
     }

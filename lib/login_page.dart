@@ -112,7 +112,7 @@ class _LoginPageState extends State<LoginPage> {
                 isLoading = false;
               });
               Navigator.push(
-                  context, MaterialPageRoute(builder: (_) => const HomePage()));
+                  context, MaterialPageRoute(builder: (_) => HomeScreen()));
             } else {
               ("Login failed");
               setState(() {
